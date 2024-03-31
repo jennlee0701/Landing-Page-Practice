@@ -2122,7 +2122,7 @@ select {
 }
 
 textarea {
-    min-height : calc(8 * var(--space));
+    min-height : calc(5 * var(--space));
 }
 
 input[type="email"]:focus,
@@ -4583,11 +4583,14 @@ body.search-is-visible .s-header__search-inner {
 }
 
 /*.s-footer__subscribe input[type="email"],
-.s-footer__subscribe input[type="submit"] {
+.s-footer__subscribe input[type="text"],
+.s-footer__subscribe textarea {
     margin-bottom : var(--vspace-0_5);
 }*/
 
-.s-footer__subscribe input[type="email"] {
+.s-footer__subscribe input[type="email"],
+.s-footer__subscribe input[type="text"],
+.s-footer__subscribe textarea {
     background-color : white;
     font-size        : calc(var(--text-size) * 0.8889);
     border           : 1px solid var(--color-gray-5);

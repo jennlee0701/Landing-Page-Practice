@@ -91,7 +91,7 @@
     
             </div> <!-- end s-header__navigation -->
 
-            <div class="s-header__search">
+ <!--            <div class="s-header__search">
 
                 <div class="s-header__search-inner">
                     <div class="row">
@@ -107,16 +107,16 @@
                         <a href="#0" title="Close Search" class="s-header__search-close">Close</a>
     
                     </div> <!-- end row -->
-                </div> <!-- s-header__search-inner -->
+         <!--        </div> <!-- s-header__search-inner -->
     
-            </div> <!-- end s-header__search -->
+            <!-- </div> end s-header__search -->
 
-            <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+          <!--   <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
             <a class="s-header__search-trigger" href="#">
                 <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"></path>
                 </svg>
-            </a>
+            </a> -->
 
         </header> <!-- end s-header -->
 
@@ -443,7 +443,7 @@
                     Get In Touch.
                     </h2>
                     <p>
-                    Share your ideas with me
+                    Share your needs with me
                     </p>
 
                     <!-- <form id="mc-form" class="mc-form"> -->
@@ -451,16 +451,19 @@
                         <input type="submit" name="subscribe" value="Subscribe" class="btn--small btn--primary u-fullwidth"> -->
                         <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
                         <!-- <div class="container"> -->
-                          <form action="action_page.php" id="mc-form" class="mc-form">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Your email..">
-                            <label for="idea">Idea</label>
-                            <textarea id="subject" name="subject" placeholder="Your ideas.."></textarea>
-                            <input type="submit" name="Submit" value="Submit" class="btn--small btn--primary u-fullwidth">
+                          <form id="mc-form" class="mc-form">
+                            <div class="submit-form">
+                                <div class="row">
+                                    <input class="column" type="text" id="name" name="name" placeholder="Your name">
+                                    <input class="column" type="email" id="email" name="email" placeholder="Your email">
+                                </div>
+                                <div class="row">
+                                    <textarea class="column" id="subject" name="subject" placeholder="Your ideas"></textarea>
+                                </div>
+                                <input type="submit" name="Submit" value="Submit" class="btn--small btn--primary u-fullwidth">
+                                <p> * Please share any relevant information about your needs, the purpose and the style you're looking for. 
+                                </p>
+                            </div>
                           </form>
                         <!-- </div> -->
                         <!-- <div class="mc-status"></div> -->
