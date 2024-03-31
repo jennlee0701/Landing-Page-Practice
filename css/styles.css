@@ -4582,10 +4582,10 @@ body.search-is-visible .s-header__search-inner {
     margin-top : var(--vspace-1_5);
 }
 
-.s-footer__subscribe input[type="email"],
+/*.s-footer__subscribe input[type="email"],
 .s-footer__subscribe input[type="submit"] {
     margin-bottom : var(--vspace-0_5);
-}
+}*/
 
 .s-footer__subscribe input[type="email"] {
     background-color : white;
